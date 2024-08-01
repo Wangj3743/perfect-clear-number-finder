@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width">
         <title>What PC Am I On?</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <link rel="icon" href="/fav.png">
+        <link rel="icon" href="fav.png">
     </head>
 
     <body>
@@ -15,21 +15,21 @@
         <h2>On an empty board, How many pieces have been used?</h2>
         <img src="ref.jpg" height="42%">
         <br>
-        <p>use this input by typing the actual piece count (should be a multiple of 5)</p>
+        <p>use this input by typing the actual piece count (should be a multiple of 5)<br>e.x. 125</p>
         <input type="text" id="pieceCount1" placeholder="regular input"></input>
         <input type="button" value="Calculate!" onclick="numNormal()"></type>
         <br>
-        <p>or use this input for multiples of 10 and remove the last digit (which is a 0)<br>450 -> "45"</p>
+        <p>or use this input for multiples of 10 and remove the last digit (which is a 0)<br>e.x. 45 (450 -> "45")</p>
         <input type="text" id="pieceCount2" placeholder="input w/o last digit"></input>
         <input type="button" value="Calculate!" onclick="numAdvanced()"></type>
         <br>
-        <p>or use this input for multiples of 5 and remove the last digit (which is a 5)<br>235 -> "23"</p>
+        <p>or use this input for multiples of 5 and remove the last digit (which is a 5)<br>e.x. 23 (235 -> "23")</p>
         <input type="text" id="pieceCount3" placeholder="input w/o last digit"></input>
         <input type="button" value="Calculate!" onclick="numAdvanced1()"></type>
         <br><br>
         <p>PC #:</p>
         <h2><span id="ans"></span><h2>
-        <br>
+        <br><br>
         <a href="https://github.com/Wangj3743/perfect-clear-number-finder">GitHub Repository</a>
         <br>
         <a href="https://replit.com/@wangj3743/WhatPCAmIOn">original source code</a>
